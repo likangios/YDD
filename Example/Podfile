@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ydd_Example' do
+  pod 'ydd', :path => '../'
+
+  target 'ydd_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
